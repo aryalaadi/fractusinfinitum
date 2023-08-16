@@ -1,5 +1,5 @@
 // public domain
-// mandelbrot fractral in C for unix terminals
+// mandelbrot fractal in C for unix terminals
 // by Aaditya Aryal
 
 #include <stdio.h>
