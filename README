@@ -3,3 +3,9 @@ fractal geometry
 i. 	mandelbrot 
 ii. 	julia 
 ------------------
+
+compilation
+---------------------
+gcc mandelbrot.c -lm
+gcc julia.c -lm
+---------------------
