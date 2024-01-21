@@ -1,0 +1,3 @@
+mandelbrot_i386.c: 	Public Domain
+dev/vga.c: 		GPL3 
+boot.s:			GPL3

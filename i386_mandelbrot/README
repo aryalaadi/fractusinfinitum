@@ -1,0 +1,11 @@
+i386 mandelbrot set
+
+tools required: make, gcc, ld, qemu-system-i386
+
+build: 
+	$ make 
+
+running: 
+	$ make qemu
+
+special credits to cs.nyu.edu/~perlin/  
