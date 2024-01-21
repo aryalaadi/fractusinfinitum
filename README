@@ -1,11 +1,13 @@
 fractal geometry 
-------------------
+------------------------
 i. 	mandelbrot 
-ii. 	julia 
-------------------
+ii. 	julia
+iii. 	i386_mandelbrot 
+-----------------------
 
 compilation
----------------------
+--------------------------
 gcc mandelbrot.c -lm
 gcc julia.c -lm
----------------------
+cd i386_mandelbrot & make
+--------------------------
