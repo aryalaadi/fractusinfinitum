@@ -37,14 +37,14 @@ void vgaclear(void){
     }
 }
 
-void vgaputc(const char c) {
+void vgaputc(const char c, int color) {
 	if (c == '\n') {
 		line++;
 		pos=0;
 	}
 	else {
 		vgamagic[(line*80*2)+pos] = c;
-		vgamagic[(line*80*2)+pos+1] = TXT;
+		vgamagic[(line*80*2)+pos+1] = color;
 		incpos();
 	}
 }
